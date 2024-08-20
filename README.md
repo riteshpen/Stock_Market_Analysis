@@ -8,4 +8,23 @@ market pricing and wrote a user interface where you can input the year and compa
 
 ## Contribution
 
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
+Fork the repository.
+
+Create a new branch (git checkout -b feature/improvement).
+
+Make your changes.
+
+Commit your changes (git commit -am 'Add new feature').
+
+Push to the branch (git push origin feature/improvement).
+
+Create a new Pull Request.
+
+## Tools Used
+
+- VSCode
+- Streamlit Cloud
+- [Idea](https://medium.com/nerd-for-tech/stock-market-analysis-and-forecasting-using-deep-learning-f75052e81301)
+- Juypter Notebook
