@@ -34,5 +34,5 @@ Create a new Pull Request.
 - [Idea](https://medium.com/nerd-for-tech/stock-market-analysis-and-forecasting-using-deep-learning-f75052e81301)
 - Juypter Notebook
 
-## Ideas Inspiration
+## Idea Inspiration
 Credit to [Soham Nandi](https://medium.com/nerd-for-tech/stock-market-analysis-and-forecasting-using-deep-learning-f75052e81301)
