@@ -33,3 +33,6 @@ Create a new Pull Request.
 - Streamlit Cloud
 - [Idea](https://medium.com/nerd-for-tech/stock-market-analysis-and-forecasting-using-deep-learning-f75052e81301)
 - Juypter Notebook
+
+## Ideas Inspiration
+Credit to [Soham Nandi](https://medium.com/nerd-for-tech/stock-market-analysis-and-forecasting-using-deep-learning-f75052e81301)
