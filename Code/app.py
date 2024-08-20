@@ -68,7 +68,7 @@ model.add(Dense(25))
 model.add(Dense(1))
 
 # Compile the model
-model.compile(optimizer='adam', loss='mean_squared_error')
+model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mean_absolute_error'])
 
 # Train the model
 with st.spinner('Training the model...'):
@@ -86,7 +86,7 @@ plt.legend()
 st.pyplot(plt)
 
 # Predicting on the test set
-y_pred = model.predict(X_test)  
+y_pred = model.predict(X_test)
 
 # Inverse scaling to get actual prices
 y_test_scaled = scaler.inverse_transform(y_test)
@@ -120,6 +120,7 @@ def predict_price_for_year(stock, year):
     future_data = yf.download(stock, start='2010-01-01', end=future_date)['Adj Close']
     future_scaled_data = scaler.transform(future_data.values.reshape(-1, 1))
     
+    # Generate sequences for future data
     X_future, _ = create_sequences(future_scaled_data, time_step)
     
     if len(X_future) > 0:
